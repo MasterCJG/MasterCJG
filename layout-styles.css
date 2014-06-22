@@ -1,0 +1,393 @@
+html,body {
+	height: 100%;
+}
+
+* {
+    -moz-box-sizing: border-box;
+}
+
+body {
+	background-color: #000000;
+	color: #FFFFFF;
+	margin: 0;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:14px;
+	line-height:1.428571429;    
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6
+{
+font-family:"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;font-weight:normal;
+line-height:1.1;
+color:#FFFFFF
+}
+
+h1 small,h2 small,h3 small,h4 small,h5 small,h6 small,.h1 small,.h2 small,.h3 small,.h4 small,.h5 small,.h6 small
+{
+font-weight:normal;line-height:1
+}
+
+h1,.h1{font-size:45px;line-height:48px}
+h2,.h2{font-size:36px;line-height:42px}
+h3,.h3{font-size:28px;line-height:36px}
+h4,.h4{font-size:24px;line-height:25px}
+h5,.h5{font-size:20px;line-height:24px}
+h6,.h6{font-size:18px;line-height:24px}
+
+a
+{
+color:#3282e6;
+}
+
+a:hover,a:focus{
+color:#165db5;
+text-decoration:underline
+}
+
+li
+{
+float: left
+}
+
+li a:hover,li a:focus
+{
+background-color:#480000;
+}
+
+li a
+{
+    color:#FFFFFF;
+    text-decoration: none; 
+}
+
+.text-center{text-align:center}
+
+.wrap {
+    min-height:100%;
+    //display:table;
+    //height:100%;
+}
+
+.background-image
+{
+background-image: url('background.jpg');
+background-size: cover;
+}
+
+.background-image-songs {
+    min-height: 100%;
+    background-image: url('Blue-Background-Bubbles2.jpg');
+    background-size: cover;
+}
+
+.background-image-frontpage
+{
+  background-image: url('streak_final.jpg');
+  background-size: cover;
+}
+
+.background-image-microphone
+{
+  background-image:url('mic10.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.background-image-microphone2
+{
+  background-image:url('mic10.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+
+.searchTable table {
+    background-image:url('Blue-Background-Bubbles.jpg');
+    background-size: cover;
+    padding-top: 15px;
+    font-size: 24px;
+    //border: 1px solid white;
+    //border-collapse:collapse;
+    
+}
+
+.searchTable tr, td {
+    //padding: 1px 1px 1px 1px;
+    //height: 10px;
+    //vertical-align: bottom;
+    //border: 2px solid white;
+    //border-collapse: collapse;
+}
+
+
+.songResultDisplay 
+{
+  font-family: "courier";
+  font-size:16px;
+  line-height:20px;
+  color: black;
+  background-color: white;
+}
+
+
+.radioButton {
+    cursor:     pointer;
+    font-size:  24px;
+}
+
+.radioButton ul {
+    padding:0;
+    margin:0;
+    line-height: 10px;
+}
+
+.radioButton li
+{   
+  //float: left;
+  //text-align: left;
+  //vertical-align: middle;
+  list-style: none;
+  padding: 10px 10px;
+}
+
+.radioButton input[type=radio], input[type=checkbox]
+{
+    //display: inline-block;
+    
+}
+
+.radioButton label 
+{
+    cursor: pointer;
+    
+}
+
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button, select {
+    text-transform: none;
+}
+button, input {
+    line-height: normal;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+}
+
+//button, input[type="button"], input[type="reset"], input[type="submit"] {
+//    cursor: pointer;
+// 
+//    
+//}
+
+#btn-primary {
+    
+    
+}
+
+#btn-primary input[type="button"] {
+    background-color: gold;
+    border-color: white;
+    color: black;
+    border-radius: 15px;
+    padding: 15px 15px;
+    
+}
+
+#btn-primary input[type="button"]:hover, 
+#btn-primary input[type="button"]:focus, 
+#btn-primary input[type="button"]:active, 
+#btn-primary.active {
+    cursor: pointer;
+    background-color: yellow;
+    border-color: pink;
+    color: magenta;
+    font: bold;
+}
+
+.footer {
+	position: relative;
+	margin-top: -60px; /* negative value of footer height */
+	height: 60px;
+	clear:both;
+	text-align: center;
+	font-size: 14px;
+}
+
+
+
+/* Menu ID used for site */
+#menu{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    //background-color:#000000;
+    background-image: url('Blue-Background-115.jpg');
+    background-size: cover;
+   // border-color: transparent;  
+   //border-radius: 0 0 0 0;
+   //border-style: solid;
+   // border-width: 0 0 3px;
+   //color:#FFFFFF;
+   //cursor: pointer;
+    display: inline;
+    font-size: 14px;
+    font-weight: 300;
+    font-weight: bold;
+    line-height: 1.42857;
+    //margin-bottom: 0;
+    opacity: 0.8;
+    //padding: 8px 20px;
+    //padding:0;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align: left;
+    //text-decoration: none;
+    text-transform: uppercase;
+    //vertical-align: middle;
+    white-space:nowrap;
+    //width: 120px;
+}
+
+#menu ul
+{
+  padding:0;
+  margin:0;
+  
+  //background-image: url('Blue-Background-115.jpg');
+  //background-size: cover;
+  //line-height: 30px;
+}
+
+#menu li
+{
+  position: relative;
+  float: left;
+  //background-image: url('Blue-Background-115.jpg');
+  //background-size: cover;
+  //text-align: center;
+  //vertical-align: middle;
+  list-style: none;
+  //background: rgba(0,0,0,1);
+  //border-radius: 5px;
+
+}
+
+#menu ul ul
+{
+  position: absolute;
+  visibility: hidden;
+  padding:0;
+  margin:0;
+
+}
+
+#menu ul li a
+{
+  //background-color:#000000;    
+  color: White;
+  text-align: center;
+  font:"Arial Black", Arial;
+  font-size: 18px;
+  
+  //background-image: url('Blue-Background-117.png');
+  //background-size: cover;
+  //width: 120px;
+  padding: 8px 20px;
+  display:inline;
+  text-decoration:none;
+
+
+}
+
+#menu ul li:hover
+{
+  //background-color: #000000; 
+  background-color: inherit;
+  color:yellow;
+  //opacity: 0.8;
+  text-decoration:underline;
+  
+}
+
+#menu ul li a:hover
+{
+  //background-color:#480000;
+  //background-color: #000000; 
+  background-color: inherit;
+  color: yellow;
+  //opacity: 0.8;
+  text-decoration: underline;
+}
+
+#menu ul li:hover ul
+{
+  visibility:visible;
+  
+  float: none;
+  position: absolute;
+  padding:0;
+  margin:0;  
+}
+
+
+#menu ul li ul li
+{
+    background-color: black;
+    color: yellow;
+   
+    //padding-top: 5px;
+    //padding-bottom: 5px;
+    
+    white-space: nowrap;
+    min-width: 100px;
+    
+    float: none;
+    text-align: left;
+  
+}
+
+
+
+
+#menu ul li ul li a
+{
+    display:block;  // makes it so the link covers the entire space!! very important
+       
+    //padding-top: 5px;
+    //padding-bottom: 5px;
+    
+    white-space: nowrap;
+    min-width: 100px;
+    
+    float: none;
+    
+    text-align: left;
+}
+
+
+#menu ul li ul li a:hover
+{
+    background:#480000;
+    color: yellow; 
+    
+    
+    //padding-top: 5px;
+    //padding-bottom: 5px;
+    text-decoration: underline;
+    
+    white-space: nowrap;
+    min-width: 100px;
+    
+    
+    float: none;
+}
+
+
